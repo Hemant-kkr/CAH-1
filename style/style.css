@@ -1,0 +1,382 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1920x1080-2-5.jpg');
+    background-size: cover;
+    box-shadow: inset 760px 0px 206px 0px rgb(0 0 0 / 76%);
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+
+    background-color: rgba(0, 0, 0, 0.449);
+    color: white;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+nav a {
+    margin-left: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.slogan {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    padding-top: 28px;
+}
+
+.slogan div h2 {
+    font-size: 60px;
+    padding: 0px 764px 2px 173px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+}
+
+.slogan div p {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 806px 15px 171px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+.line {
+   border-top: 0.03px solid grey;
+    width: 396px;
+    margin: 20px 171px;
+}
+.awesom-icon
+{
+    display: flex;
+    gap: 25px;
+    padding: 30px 0px 100px 163px;
+}
+.awesom-icon img{
+    width: 50px;
+     height: 50px;
+}
+
+.container {
+       display: flex;
+    margin: 172px 50px 50px 50px;
+    justify-content: space-evenly;
+}   
+
+.icon-1 {
+    height:75px;
+    width: 75px;
+    background-image: url("https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/icon-3-7.png");
+    background-size: cover;
+}
+
+.icon-2 {
+    height:75px;
+    width: 75px;
+    background-image: url("https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/icon-4-7.png");
+    background-size: cover;
+}
+
+.icon-3 {
+    height:75px;
+    width: 75px;
+    background-image: url("https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/icon-1-7.png");
+    background-size: cover;
+}
+     .card{
+       height: 300px;
+       width: 297px;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card h2{
+    font-family:  "Bebas Neue", sans-serif;
+    font-weight: normal;
+    color: #140748;
+}
+.card p
+{
+     font-family: "Roboto", sans-serif;
+     color: #666666;
+     font-size: 16px;
+}
+.container .card:nth-child(2)
+{
+    border-left:  0.4px solid #9c9c9c ;
+    border-right:  0.4px solid #666666 ;
+    padding: 0px 40px;
+}
+.show-case
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 70px 100px;
+    z-index: 0px;
+}
+.show-case div{
+    height: 300px;
+    width: 20%;
+    background-color: black;
+}
+
+.show-case div:nth-child(1)
+{
+    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1000-02-3.jpg');
+    background-size: cover;
+}
+.show-case div:nth-child(2)
+{
+    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1000-03-3.jpg');
+    background-size: cover;
+}
+.show-case div:nth-child(3)
+{
+    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1000-04-3.jpg');
+    background-size: cover;
+}
+.show-case div:nth-child(4)
+{
+    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1000-05-3.jpg');
+    background-size: cover;
+}
+section
+{
+    height: 400px;
+    width: 100%;
+    background-color: #140748;
+    margin-top: -150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section div
+{
+width: 50%;
+margin-top: 30px;
+}
+section h2
+{
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif; 
+    color: white;
+    font-weight: normal;
+}
+section p{
+     font-family:  "roboto", sans-serif;
+    font-size: 22px;
+    color: white ;
+    }
+section img
+{ height: 90px;
+    width: 90px;
+    margin-top: 30px;
+}
+.container-2
+{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+}
+.pesonal-image
+{
+    width: 50%;
+    height: inherit;
+    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1200-1-5.jpg');
+    background-size: cover;
+}
+.pesonal-detail
+{
+    width: 50%;
+    height: inherit;
+    background-color: white;
+    font-family: "bebas neue";
+    display: flex;
+    flex-direction: column;
+    color: #140748;
+    font-weight: 400;
+    padding: 118px 0px 0px 0px;
+
+}
+.pesonal-detail h2{
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 75px;
+}
+.pesonal-detail p
+{
+    color: #666666;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    padding: 19px 196px 23px 75px;
+}
+.pesonal-detail h3
+{
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #2d2d2d;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.2em;
+    padding-left: 75px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+.pesonal-detail button
+{
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #140748;
+    border-radius: 0px 0px 0px 0px;
+        width: 150px;
+    height: 44px;
+        margin: 0px 0px 0px 76px;
+    border-radius: 5px;
+
+}
+i{
+    color:#7961E8;
+    margin-right: 14px;
+    font-size: 18px;
+}
+.ed-details
+{
+  width: 50%;
+    height: inherit;
+    background-size: cover;
+    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1080x1080-6-3.jpg');
+}
+.timeline
+{
+    border-style: dotted;
+    border-width: 0px 0px 0pc 2px;
+    border-color: rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: auto auto;
+        justify-content: start;
+        margin: 20px 185px;
+
+}
+.dimple
+{
+        width: 30px;
+    height: 1px;
+    border-style: solid;
+    border-width: 1px 0px 0pc 0px;
+    border-color: rgba(0, 0, 0, 0.1);
+    margin-top: 12px;
+}
+#timeline
+{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    justify-content: space-between; 
+    margin: 100px 0px;
+}
+#timeline h4
+{
+    color: #140748;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+        
+
+}
+#timeline h2
+{
+    color: #140748;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+#include <stdio.h>
+
+
+float discounted_price(int ticket,int age)
+{   float  discount;
+    if(age<10 || age>=60)
+    {
+       discount =ticket*(9.0/10.0);
+       return discount;
+    }
+     if(age>=10 && age<20)
+    {
+      discount =ticket*(3.0/10.0);
+      return discount;
+    } 
+     if(age>=20 && age<=30)
+    {
+       discount =ticket*0;
+       return discount;
+    }
+}
+float calculateTrainFair(int age , string travelerclass , int distance)
+{   int ticket,discount,discounted_Fair;
+    if(travelerclass=="sleeper")
+    {
+        ticket = 1*distance;
+    }
+     else if(travelerclass =="firstClass")
+    {
+        ticket = 2*distance;
+    }
+    else if(travelerclass=="SecondAC")
+    {
+        ticket = 3*distance;
+    }
+    float final= ticket - discounted_price( ticket,age);
+   return final;
+}
+int main() {
+    int age,distance;
+  string travelerclass;
+    printf("Enter age: ");
+    scanf("%d", &age);
+    printf("Enter distance: ");
+    scanf("%d", &distance);
+    printf("1.sleeper \n");
+     printf("2.firstClass \n");
+      printf("3.SecondAC \n");
+      printf("chosse\n");
+     scanf("%s", &travelerclass); 
+     printf("You selected: %s\n", travelerclass); 
+
+  printf("%.2f \n",calculateTrainFair(age , travelerclass , distance));
+   return 0;
+}
