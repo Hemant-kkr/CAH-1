@@ -325,3 +325,10 @@ i{
     font-weight: 400;
 
 }
+#timeline h2
+{
+        color: #2D2D2D;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
