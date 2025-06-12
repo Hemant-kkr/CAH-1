@@ -386,3 +386,96 @@ padding: 0px 80px 0px 0px;
     border-color: rgba(0, 0, 0, 0.1);
     margin-top: 12px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-4 {
+    display: flex;
+    flex-direction: row;
+   width: 100%;
+    margin-top: 100px;
+}
+
+.timeline-icon {
+      width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #6ec1e4;
+    margin: -5px;
+
+}
+
+.work-ex-img {
+    background-color: #FFFFFF;
+    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1080x1080-5-4.jpg');
+    background-size: cover;
+    width: 50%;
+}
+
+
+.work-ex {
+    width: 50%;
+    height: inherit;
+    background-color: white;
+    font-family: "bebas neue";
+    display: flex;
+    flex-direction: column;
+    color: #140748;
+    font-weight: 400;
+   
+
+}
+
+.work-ex h2 {
+    color: #140748;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 186px;
+    margin-bottom: 20px;
+}
+
+.work-ex h3 {
+    color: #140748;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+
+        margin: 0px 0px 21px 10px;
+
+}
+
+.work-ex p {
+    color: #666666;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 20px 10px;
+    line-height: 1.6em;
+}
+
+
+.work-ex h4 {
+    color: #2D2D2D;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0px 0px 10px 10px;
+}
+
+
+
