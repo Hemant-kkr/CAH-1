@@ -61,50 +61,52 @@ nav a {
 }
 
 .line {
-   border-top: 0.03px solid grey;
+    border-top: 0.03px solid grey;
     width: 396px;
     margin: 20px 171px;
 }
-.awesom-icon
-{
+
+.awesom-icon {
     display: flex;
     gap: 25px;
     padding: 30px 0px 100px 163px;
 }
-.awesom-icon img{
+
+.awesom-icon img {
     width: 50px;
-     height: 50px;
+    height: 50px;
 }
 
 .container {
-       display: flex;
+    display: flex;
     margin: 172px 50px 50px 50px;
     justify-content: space-evenly;
-}   
+}
 
 .icon-1 {
-    height:75px;
+    height: 75px;
     width: 75px;
     background-image: url("https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/icon-3-7.png");
     background-size: cover;
 }
 
 .icon-2 {
-    height:75px;
+    height: 75px;
     width: 75px;
     background-image: url("https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/icon-4-7.png");
     background-size: cover;
 }
 
 .icon-3 {
-    height:75px;
+    height: 75px;
     width: 75px;
     background-image: url("https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/icon-1-7.png");
     background-size: cover;
 }
-     .card{
-       height: 300px;
-       width: 297px;
+
+.card {
+    height: 300px;
+    width: 297px;
     text-align: center;
     justify-items: center;
     display: flex;
@@ -112,59 +114,60 @@ nav a {
     align-items: center;
     justify-content: space-evenly;
 }
-.card h2{
-    font-family:  "Bebas Neue", sans-serif;
+
+.card h2 {
+    font-family: "Bebas Neue", sans-serif;
     font-weight: normal;
     color: #140748;
 }
-.card p
-{
-     font-family: "Roboto", sans-serif;
-     color: #666666;
-     font-size: 16px;
+
+.card p {
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    font-size: 16px;
 }
-.container .card:nth-child(2)
-{
-    border-left:  0.4px solid #9c9c9c ;
-    border-right:  0.4px solid #666666 ;
+
+.container .card:nth-child(2) {
+    border-left: 0.4px solid #9c9c9c;
+    border-right: 0.4px solid #666666;
     padding: 0px 40px;
 }
-.show-case
-{
+
+.show-case {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 70px 100px;
     z-index: 0px;
 }
-.show-case div{
+
+.show-case div {
     height: 300px;
     width: 20%;
     background-color: black;
 }
 
-.show-case div:nth-child(1)
-{
+.show-case div:nth-child(1) {
     background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1000-02-3.jpg');
     background-size: cover;
 }
-.show-case div:nth-child(2)
-{
+
+.show-case div:nth-child(2) {
     background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1000-03-3.jpg');
     background-size: cover;
 }
-.show-case div:nth-child(3)
-{
+
+.show-case div:nth-child(3) {
     background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1000-04-3.jpg');
     background-size: cover;
 }
-.show-case div:nth-child(4)
-{
+
+.show-case div:nth-child(4) {
     background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1000-05-3.jpg');
     background-size: cover;
 }
-section
-{
+
+section {
     height: 400px;
     width: 100%;
     background-color: #140748;
@@ -174,43 +177,44 @@ section
     align-items: center;
     justify-content: space-evenly;
 }
-section div
-{
-width: 50%;
-margin-top: 30px;
+
+section div {
+    width: 50%;
+    margin-top: 30px;
 }
-section h2
-{
+
+section h2 {
     font-size: 40px;
-    font-family: "Bebas Neue", sans-serif; 
+    font-family: "Bebas Neue", sans-serif;
     color: white;
     font-weight: normal;
 }
-section p{
-     font-family:  "roboto", sans-serif;
+
+section p {
+    font-family: "roboto", sans-serif;
     font-size: 22px;
-    color: white ;
-    }
-section img
-{ height: 90px;
+    color: white;
+}
+
+section img {
+    height: 90px;
     width: 90px;
     margin-top: 30px;
 }
-.container-2
-{
+
+.container-2 {
     display: flex;
     flex-direction: row;
-    height: 800px;
 }
-.pesonal-image
-{
+
+.pesonal-image {
     width: 50%;
     height: inherit;
     background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1200-1-5.jpg');
     background-size: cover;
 }
-.pesonal-detail
-{
+
+.pesonal-detail {
     width: 50%;
     height: inherit;
     background-color: white;
@@ -222,14 +226,15 @@ section img
     padding: 118px 0px 0px 0px;
 
 }
-.pesonal-detail h2{
+
+.pesonal-detail h2 {
     font-family: "Bebas Neue", Sans-serif;
     font-size: 40px;
     font-weight: 400;
     padding-left: 75px;
 }
-.pesonal-detail p
-{
+
+.pesonal-detail p {
     color: #666666;
     font-family: "Roboto", Sans-serif;
     font-size: 16px;
@@ -237,8 +242,8 @@ section img
     line-height: 31px;
     padding: 19px 196px 23px 75px;
 }
-.pesonal-detail h3
-{
+
+.pesonal-detail h3 {
     font-family: "Bebas Neue", Sans-serif;
     font-size: 22px;
     font-weight: 400;
@@ -251,8 +256,8 @@ section img
     padding-bottom: 15px;
     margin-top: 15px;
 }
-.pesonal-detail button
-{
+
+.pesonal-detail button {
     font-family: "Roboto", Sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -262,73 +267,122 @@ section img
     color: #FFFFFF;
     background-color: #140748;
     border-radius: 0px 0px 0px 0px;
-        width: 150px;
+    width: 150px;
     height: 44px;
-        margin: 0px 0px 0px 76px;
+    margin: 0px 0px 0px 76px;
     border-radius: 5px;
 
 }
-i{
-    color:#7961E8;
+
+i {
+    color: #7961E8;
     margin-right: 14px;
     font-size: 18px;
 }
-.ed-details
-{
-  width: 50%;
-    height: inherit;
-    background-size: cover;
-    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1080x1080-6-3.jpg');
-}
-.timeline
-{
-    border-style: dotted;
-    border-width: 0px 0px 0pc 2px;
-    border-color: rgba(0, 0, 0, 0.1);
-    display: grid;
-    grid-template-columns: auto auto;
-        justify-content: start;
-        margin: 20px 185px;
 
-}
-.dimple
-{
-        width: 30px;
-    height: 1px;
-    border-style: solid;
-    border-width: 1px 0px 0pc 0px;
-    border-color: rgba(0, 0, 0, 0.1);
-    margin-top: 12px;
-}
-#timeline
-{
+.container-3 {
     display: flex;
     flex-direction: row;
-    height: 800px;
-    justify-content: space-between; 
-    margin: 100px 0px;
+   
+    margin-top: 100px;
 }
-#timeline h4
-{
+
+.timeline-icon {
+      width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #6ec1e4;
+    margin: -5px;
+
+}
+
+.ed-details-img {
+    width: 50%;
+    height: inherit;
+    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1080x1080-6-3.jpg');
+    background-size: cover;
+}
+
+
+.ed-detail {
+    width: 50%;
+    height: inherit;
+    background-color: white;
+    font-family: "bebas neue";
+    display: flex;
+    flex-direction: column;
+    color: #140748;
+    font-weight: 400;
+   
+
+}
+
+.ed-detail h2 {
     color: #140748;
     font-family: "Bebas Neue", Sans-serif;
     font-size: 40px;
     font-weight: 400;
-        
-
+    margin-left: 186px;
+    margin-bottom: 20px;
 }
-#timeline h2
-{
+
+.ed-detail h3 {
     color: #140748;
     font-family: "Bebas Neue", Sans-serif;
     font-size: 22px;
     font-weight: 400;
 
+        margin: 0px 0px 21px 10px;
+
 }
-#timeline h2
-{
-        color: #2D2D2D;
+
+.ed-detail p {
+    color: #666666;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 20px 10px;
+    line-height: 1.6em;
+}
+
+
+.ed-detail h4 {
+    color: #2D2D2D;
     font-family: "Roboto", Sans-serif;
     font-size: 20px;
     font-weight: 300;
+    margin: 0px 0px 10px 10px;
+}
+
+
+
+.ed-details-img {
+    width: 50%;
+    height: inherit;
+    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1080x1080-6-3.jpg');
+    background-size: cover;
+
+}
+
+.timeline {
+    border-style: dotted;
+    border-width: 0px 0px 0pc 2px;
+    border-color: rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    margin: 20px 0px 20px 185px;
+padding: 0px 80px 0px 0px;
+}
+.timeline-content
+{
+   padding: 0px 0px 40px 0px;
+}
+.dimple {
+    width: 42px;
+    height: 1px;
+    border-style: solid;
+    border-width: 1px 0px 0pc 0px;
+    border-color: rgba(0, 0, 0, 0.1);
+    margin-top: 12px;
 }
