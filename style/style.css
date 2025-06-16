@@ -18,7 +18,6 @@ header {
     align-items: center;
     padding: 20px;
     font-weight: bold;
-
     background-color: rgba(0, 0, 0, 0.449);
     color: white;
 }
@@ -37,15 +36,22 @@ nav a {
 }
 
 .slogan {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
     color: white;
     padding-top: 28px;
+    max-width: 80%;
+
+}
+
+.slogan-content {
+    max-width:fit-content;
 }
 
 .slogan div h2 {
     font-size: 60px;
-    padding: 0px 764px 2px 173px;
+
     font-family: sans-serif;
     text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif;
@@ -55,7 +61,6 @@ nav a {
 .slogan div p {
     font-size: 24px;
     font-family: "Roboto", sans-serif;
-    padding: 10px 806px 15px 171px;
     line-height: 38px;
     font-weight: 300;
 }
@@ -63,52 +68,54 @@ nav a {
 .line {
     border-top: 0.03px solid grey;
     width: 396px;
-    margin: 20px 171px;
+    margin: 40px 0px 0px 0px;
 }
 
 .awesom-icon {
     display: flex;
     gap: 25px;
-    padding: 30px 0px 100px 163px;
+    padding: 30px 0px 100px 0px;
     font-size: 24px;
 }
 
-.awesom-icon div {
-   
-}
-.facebook i
-{    width: 48px;
+.awesom-icon div {}
+
+.facebook i {
+    width: 48px;
     height: 48px;
     font-size: 24px;
-    background-color:  #3b5998;
+    background-color: #3b5998;
     color: white;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.x i
-{    width: 48px;
+
+.x i {
+    width: 48px;
     height: 48px;
     font-size: 24px;
-        background-color: #1da1f2;
+    background-color: #1da1f2;
     color: white;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.youtube i
-{    width: 48px;
+
+.youtube i {
+    width: 48px;
     height: 48px;
     font-size: 24px;
-        background-color: #cd201f;
+    background-color: #cd201f;
     color: white;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+
 .container {
     display: flex;
     margin: 172px 50px 50px 50px;
@@ -335,7 +342,6 @@ i {
     background-size: cover;
 }
 
-
 .ed-detail {
     width: 50%;
     height: inherit;
@@ -345,7 +351,6 @@ i {
     flex-direction: column;
     color: #140748;
     font-weight: 400;
-
 
 }
 
@@ -365,7 +370,6 @@ i {
     font-weight: 400;
 
     margin: 0px 0px 21px 10px;
-
 }
 
 .ed-detail p {
@@ -377,7 +381,6 @@ i {
     line-height: 1.6em;
 }
 
-
 .ed-detail h4 {
     color: #2D2D2D;
     font-family: "Roboto", Sans-serif;
@@ -385,8 +388,6 @@ i {
     font-weight: 300;
     margin: 0px 0px 10px 10px;
 }
-
-
 
 .ed-details-img {
     width: 50%;
@@ -420,9 +421,6 @@ i {
     margin-top: 12px;
 }
 
-
-
-
 .container-4 {
     display: flex;
     flex-direction: row;
@@ -447,7 +445,6 @@ i {
     width: 50%;
 }
 
-
 .work-ex {
     width: 50%;
     height: inherit;
@@ -457,7 +454,6 @@ i {
     flex-direction: column;
     color: #140748;
     font-weight: 400;
-
 
 }
 
@@ -477,7 +473,6 @@ i {
     font-weight: 400;
 
     margin: 0px 0px 21px 10px;
-
 }
 
 .work-ex p {
@@ -488,7 +483,6 @@ i {
     margin: 0px 0px 20px 10px;
     line-height: 1.6em;
 }
-
 
 .work-ex h4 {
     color: #2D2D2D;
@@ -624,7 +618,7 @@ i {
     margin-bottom: 60px;
     /* padding: 0px 0px 0px 0px; */
     justify-content: center;
-      
+
 }
 
 .reveiw-cards-content {
@@ -646,10 +640,11 @@ i {
     line-height: 1.6em;
     margin-bottom: 20px;
 }
-.reveiwedBy-details
-{
+
+.reveiwedBy-details {
     align-items: center;
 }
+
 .reveiwer-img {
     height: 60px;
     width: 60px;
@@ -668,121 +663,123 @@ i {
     display: flex;
     flex-direction: row;
 }
-.name-designation h2{
+
+.name-designation h2 {
     font-size: 16px;
-        color: #323335;
-    font-family:"Roboto", Sans-serif;
+    color: #323335;
+    font-family: "Roboto", Sans-serif;
     margin-bottom: 5px;
 }
-.name-designation h3{
-   color: #1E1E1E;
+
+.name-designation h3 {
+    color: #1E1E1E;
     font-family: "Roboto", Sans-serif;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
 }
-#rewr-1-img
-{
+
+#rewr-1-img {
     background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/review-03-2.jpg');
     background-size: cover;
-} 
-#rewr-2-img
-{
-     background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/review-02-2.jpg');
+}
+
+#rewr-2-img {
+    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/review-02-2.jpg');
     background-size: cover;
 }
-#rewr-3-img
-{
- background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/review-01-2.jpg');
+
+#rewr-3-img {
+    background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/review-01-2.jpg');
     background-size: cover;
 }
-.logo-images
-{
+
+.logo-images {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 60px 0px 80px 0px;
     background: #fafbfd;
 }
-.logo-images-content
-{
+
+.logo-images-content {
     width: 225px;
     height: 135px;
-        margin: 0px 30px;
+    margin: 0px 30px;
 }
-#logo-img-1
-{
+
+#logo-img-1 {
     background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/logo-01.png');
-     background-size: cover;
+    background-size: cover;
 }
-#logo-img-2
-{
+
+#logo-img-2 {
     background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/logo-05-1.png');
-     background-size: cover;
+    background-size: cover;
 }
-#logo-img-3
-{
+
+#logo-img-3 {
     background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/logo-05-1.png');
-     background-size: cover;
+    background-size: cover;
 }
-#logo-img-4
-{
+
+#logo-img-4 {
     background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/logo-02.png');
-     background-size: cover;
+    background-size: cover;
 }
-.detail-colection-form
-{   display: flex;
+
+.detail-colection-form {
+    display: flex;
     flex-direction: row;
 
-    height:700px
+    height: 700px
+}
+
+.query {
+    width: 50%;
+}
+
+.form {
+    background-color: #7961E8;
+    width: 50%;
+    padding: 150px 0px 150px 0px;
+    height: 820px;
 
 }
-.query
-{
-    width: 50%;
-}
-.form
-{
-    background-color:#7961E8;
-    width: 50%;
-        padding: 150px 0px 150px 0px;
-        height: 820px;
-    
-}
-form{
+
+form {
     width: 670px;
     display: flex;
     flex-direction: column;
-        margin: 0px 0px 0px -100px;
+    margin: 0px 0px 0px -100px;
     padding: 60px 60px 60px 60px;
     background-color: #FFFFFF;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
-   
-} 
 
-input
-{
+}
+
+input {
     width: 100%;
     height: 50px;
     color: #000000;
-        margin-bottom: 20px;
-            padding: .375rem .75rem;
+    margin-bottom: 20px;
+    padding: .375rem .75rem;
     size: 1rem;
-  
+
 }
-input::placeholder
-{
+
+input::placeholder {
     color: #000000;
 }
-#message
-{
-width: 100%;
+
+#message {
+    width: 100%;
     height: 176px;
     margin-bottom: 20px;
 }
-.form input[type=button] 
-{
-        font-family: "Roboto", Sans-serif;
+
+.form input[type=button] {
+    font-family: "Roboto", Sans-serif;
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
@@ -795,18 +792,18 @@ width: 100%;
     height: 44px;
     width: 172px;
 }
-.query
-{
-        padding: 150px 100px 150px 200px;
+
+.query {
+    padding: 150px 100px 150px 200px;
 }
-.elementor-divider
-{
-        margin-top: 40px;
+
+.elementor-divider {
+    margin-top: 40px;
     margin-bottom: 40px;
     border-bottom: 1px solid #0000001A;
 }
-.query h2
-{
+
+.query h2 {
     color: #140748;
     font-family: "Bebas Neue", Sans-serif;
     font-size: 40px;
@@ -817,8 +814,8 @@ width: 100%;
     line-height: 1.1em;
     margin-bottom: 15px;
 }
-.query h3
-{
+
+.query h3 {
     color: #140748;
     font-family: "Bebas Neue", Sans-serif;
     font-size: 22px;
@@ -827,10 +824,10 @@ width: 100%;
     font-style: normal;
     text-decoration: none;
     line-height: 1.1em;
-     margin-bottom: 15px;
+    margin-bottom: 15px;
 }
-.query p
-{
+
+.query p {
     color: #666666;
     font-family: "Roboto", Sans-serif;
     font-size: 22px;
@@ -839,5 +836,5 @@ width: 100%;
     font-style: normal;
     text-decoration: none;
     line-height: 1.6em;
-     margin-bottom: 15px;
+    margin-bottom: 15px;
 }
