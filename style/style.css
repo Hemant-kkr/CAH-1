@@ -118,8 +118,10 @@ nav a {
 
 .container {
     display: flex;
-    margin: 172px 50px 50px 50px;
-    justify-content: space-evenly;
+   
+        max-width: 1140px;
+       margin: 172px auto 50px auto;
+    
 }
 
 .icon-1 {
@@ -127,6 +129,7 @@ nav a {
     width: 75px;
     background-image: url("https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/icon-3-7.png");
     background-size: cover;
+        margin-bottom: 25px;
 }
 
 .icon-2 {
@@ -134,6 +137,7 @@ nav a {
     width: 75px;
     background-image: url("https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/icon-4-7.png");
     background-size: cover;
+        margin-bottom: 25px;
 }
 
 .icon-3 {
@@ -141,35 +145,45 @@ nav a {
     width: 75px;
     background-image: url("https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/icon-1-7.png");
     background-size: cover;
+        margin-bottom: 25px;
 }
 
 .card {
-    height: 300px;
-    width: 297px;
+    /* height: 300px;
+    width: 297px; */
     text-align: center;
     justify-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+        padding: 40px 40px 40px 40px;
 }
-
+.seprator
+{
+     border-left: 0.4px solid #9c9c9c;
+}
 .card h2 {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: normal;
+        margin-bottom: 15px;
     color: #140748;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.1em;
 }
 
 .card p {
-    font-family: "Roboto", sans-serif;
     color: #666666;
+    font-family: "Roboto", Sans-serif;
     font-size: 16px;
-}
-
-.container .card:nth-child(2) {
-    border-left: 0.4px solid #9c9c9c;
-    border-right: 0.4px solid #666666;
-    padding: 0px 40px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.6em;
 }
 
 .show-case {
@@ -837,4 +851,47 @@ input::placeholder {
     text-decoration: none;
     line-height: 1.6em;
     margin-bottom: 15px;
+}
+
+
+/* <-----------------------------> */
+@media (min-width: 1325px) and (max-width: 1440px) {
+
+ .show-case div 
+ {
+    height: 236px;
+    width: 236px;
+ }  
+ .container-4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0px;
+    padding: 130px 0px 130px 0px;
+}
+}
+@media (min-width: 1025px) and (max-width: 1325px) {
+
+ .show-case div 
+ {
+    height: 166px;
+    width: 166px;
+ }  
+ section
+ {
+    margin-top:0px ;
+ }
+ .show-case
+ {
+        margin: 70px 100px 0px 150px;
+    padding-bottom: 30px;
+ }
+ .course-img {
+    width: 235px;
+    height: 235px;
+    /* margin-bottom: 23px; */
+}
+form {
+    width: auto;
+}
 }
