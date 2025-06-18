@@ -1,0 +1,113 @@
+//  Number of unique elements :3
+#include <stdio.h>
+void removeduplicate(int arr[],int n)
+{
+    int c=1;
+    int i=1;
+    for(i=1;i<n;i++)
+    {
+        if(arr[i]!=arr[i-1])
+        {
+            c++;
+        }
+    }
+    printf("%d",c);
+}
+int main() {
+   int  arr[]={1,1,1,2,2,3,3};
+    int n;
+     n = sizeof(arr)/sizeof(arr[0]);
+     printf(" Number of unique elements :");
+   removeduplicate(arr,n);
+}
+
+
+// Online unique elements :1,2,3,
+#include <stdio.h>
+void removeduplicate(int arr[],int n)
+{
+    int c=1;
+    int i=1;
+    printf("%d,",arr[i]);
+    for(i=1;i<n;i++)
+    {  
+        if(arr[i]!=arr[i-1])
+        {
+          printf("%d,",arr[i+1]);
+        }
+    }
+   
+}
+int main() {
+   int  arr[]={1,1,1,2,2,3,3};
+    int n;
+     n = sizeof(arr)/sizeof(arr[0]);
+     printf("unique elements :");
+   removeduplicate(arr,n);
+}
+
+
+
+// Online merge two array 
+#include <stdio.h>
+
+int main() 
+{
+int i;
+   int arr1[]={2,3,5,11,1,2,4};
+ int arr2[]={6,8,2,1,4};
+int  n = sizeof(arr1)/sizeof(arr1[0]);
+int  m = sizeof(arr1)/sizeof(arr1[0]);
+int t = n+m;
+int k=0;
+int unique[t];
+for(i=0;i<n;i++)
+{
+    unique[i]=arr1[i];
+    k++;
+}
+for(i=0;i<m;i++)
+{
+    unique[k]=arr2[i];
+    k++;
+}
+for(i=0;i<t-2;i++)
+{
+   printf("%d,",unique[i]);
+}
+    return 0;
+}
+
+
+
+
+// Online max=9 smax=8 
+#include <stdio.h>
+
+int main() 
+{
+int i=0;
+int arr[]={2,1,6,9,8,7};
+int max = arr[0];
+int smax = arr[0];
+ int n=sizeof(arr)/sizeof(arr[0]);
+
+for(i=0;i<n;i++)
+{
+   if(arr[i]>max)
+   {
+       smax=max;
+       max=arr[i];
+   }
+else if(arr[i]>smax)
+   {
+       smax=arr[i];
+   }
+}
+   
+ 
+   printf("max=%d smax=%d \n",max ,smax);
+  
+
+    return 0;
+}
