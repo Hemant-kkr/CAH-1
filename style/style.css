@@ -1200,7 +1200,10 @@ form {
 @media (max-width: 480px){
 header {    background-size: cover;
 }
-
+.line {
+ 
+    width: 345px;
+}
 .slogan div h2 {
     font-size: 50px;
 }
