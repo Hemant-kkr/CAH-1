@@ -1082,7 +1082,7 @@ header {    background-size: cover;
 }
 .pesonal-image {
     width: 100%;
-    height: 600px;
+    height: 400px;
 }
 .pesonal-detail {
     width: 100%;
@@ -1109,7 +1109,7 @@ header {    background-size: cover;
 }
 .ed-details-img {
     width: 100%;
-    height: 600px;
+    height: 400px;
 }
 .container-4 {
     flex-direction: column;
@@ -1320,7 +1320,7 @@ section p {
 }
 .work-ex-img {
     width: 100%;
-    height: 600px;
+    height: 400px;
 }
 .timeline {
     margin: 20px 0px 20px 45px;
@@ -1384,7 +1384,7 @@ form {
 }
 .reveiw-img {
     height: 300px;
-    background-size: contain;
+
 }
 
    
