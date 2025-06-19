@@ -620,7 +620,7 @@ i {
 }
 
 .reveiw-img {
-    height: 500px;
+    height: 800px;
     background-image: url('https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1920x1080-1-7.jpg');
     background-size: cover;
 }
@@ -1382,5 +1382,9 @@ form {
     padding: 50px 100px 50px 60px;
     width: 100%;
 }
+.reveiw-img {
+    height: 500px;
+}
+
    
 }
