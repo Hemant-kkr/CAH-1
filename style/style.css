@@ -1280,7 +1280,7 @@ section p {
 }
 .pesonal-image {
     width: 100%;
-    height: 600px;
+    height: 500px;
 }
 .pesonal-detail {
     width: 100%;
@@ -1307,7 +1307,7 @@ section p {
 }
 .ed-details-img {
     width: 100%;
-    height: 600px;
+    height: 500px;
 }
 .container-4 {
     flex-direction: column;
