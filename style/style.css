@@ -1186,3 +1186,198 @@ form {
 }
    
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+header {    background-size: cover;
+}
+
+.slogan div h2 {
+    font-size: 50px;
+}
+
+.navbar {
+
+    flex-direction: column;
+    align-items: flex-start;
+}
+nav a {
+    margin-left: 5px;
+    font-size: 13px;
+}
+.show-case {
+    display: flex
+;
+    flex-direction: row;
+    justify-content: space-around;
+     margin: 70px 0px;
+     flex-direction: column-reverse;
+}
+section {
+    height: 400px;
+    width: 100%;
+    background-color: #140748;
+    margin-top: 0px;
+}
+section div {
+    width: 100%;
+    margin: 30px;
+}
+section h2 {
+    font-size: 30px;
+}
+section p {
+    font-size: 18px;
+}
+.awesom-icon {
+     gap: 25px;
+    padding: 30px 0px 20px 0px;
+}
+    .container {
+    flex-direction: column;
+    padding: 10px 70px;
+        margin: 48px auto 50px auto;
+}
+.seprator {
+    border-top: 0.4px solid #9c9c9c40;
+}
+
+    .show-case {
+        display: flex
+;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
+        margin: 70px 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+.show-case div {
+    height: 229px;
+    width: 43%;
+    background-color: black;
+}
+.show-case div:nth-child(1) {
+    display: none;
+}
+.show-case div:nth-child(2) {
+    display: none;
+}
+    .container-2 {
+  flex-direction: column;
+}
+.pesonal-image {
+    width: 100%;
+    height: 600px;
+}
+.pesonal-detail {
+    width: 100%;
+    padding: 28px 0px 0px 0px;
+}
+.pesonal-detail p {
+    padding: 19px 10px 23px 46px;
+}
+.pesonal-detail h2 {
+    padding-left: 47px;
+}
+.container-3 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+}
+.ed-detail {
+    width: 100%;
+}
+.ed-detail h2 {
+    margin-left: 45px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.ed-details-img {
+    width: 100%;
+    height: 600px;
+}
+.container-4 {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    padding: 30px 0px 30px 0px;
+}
+.work-ex {
+    width: 100%;
+}
+.work-ex-img {
+    width: 100%;
+    height: 600px;
+}
+.timeline {
+    margin: 20px 0px 20px 45px;
+    padding: 0px 80px 0px 0px;
+}
+
+.work-ex h2 {
+    margin-left: 45px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+    .f-container .para
+    {
+        margin:  0px;
+    }
+    .programs-offered
+    { grid-template-columns: auto auto;
+        margin-right: 60px;
+    margin-left: 60px;
+    }
+       .courses {
+        grid-template-columns: auto ;
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+    .course-details {
+            padding: 30px 0px 130px 0px;
+    }
+.logo-images {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns:  auto;
+    row-gap: 20px;
+
+}
+.reveiw-cards {
+        flex-direction: column;
+        align-items: center;
+           margin: 30px;
+               padding: 30px 32px;
+}
+.detail-colection-form
+{
+     flex-direction: column;
+}
+.form {
+    background-color:white;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    height: 820px;
+}
+form {
+    width: 100%; 
+   margin: 0px 0px 0px 0px;
+}
+
+.query {
+    padding: 50px 100px 50px 60px;
+    width: 100%;
+}
+   
+}
